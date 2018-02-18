@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dodawanie nowego użytkownika</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/addUser.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Play:400,700&amp;subset=latin-ext" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1><a href="../../index.html">Paczkolab</a></h1>
+            <hr>
+            <div class="heading-box">
+                <h2>Dodaj nowego użytkownika</h2>
+            </div>
+            <div class="menu-box">
+                <form id="add-user">
+                    <p>Adres</p>
+                    <select name="select address" id="address_option" required>
+                        <option value="value">Wybierz adres</option> 
+                    </select>
+                    <label for="name">Imię</label>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="surname">Nazwisko</label>
+                    <input type="text" name="surname" id="surname"><br>
+                    <label for="credits">Ilość kredytów</label>
+                    <input type="text" name="credits" id="credits"><br>
+                    <input type="submit" value="Dodaj">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,221 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Play', 'Raleway', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1070px;
+	margin: 30px auto;
+	padding: 20px 30px;
+	border: 3px solid transparent;
+	border-radius: 4px;
+	background-color: #f0f0f0;
+}
+
+h1 a {
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	font-size: 34px;
+	position: relative;
+	letter-spacing: 4px;
+	margin-bottom: 40px;
+}
+
+h1 a:after {
+	content: '';
+    height: 4px;
+    width: 50px;
+    background-color: brown;
+    position: absolute;
+    bottom: -5px;
+    left: 47%;
+}
+
+h1 a:hover {
+	color: brown;
+}
+
+.heading-box {
+	text-align: center;
+}
+
+h2 {
+	display: inline-block;
+	letter-spacing: 2px;
+	position: relative;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+h2:after {
+	content: '';
+    height: 20px;
+    width: 4px;
+    background-color: darkblue;
+    position: absolute;
+    bottom: 2px;
+    left: -20px;
+}
+
+.menu {
+	padding: 0 50px;
+}
+
+.menu h2 {
+	margin-bottom: 10px;
+}
+
+.menu-box {
+	display: flex;
+	justify-content: center;
+}
+
+.main-menu-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.center {
+	justify-content: center;
+}
+
+.login-form {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.submit {
+	margin-top: 10px;
+    border: 1px solid darkblue;
+    border-radius: 4px;
+    color: #000;
+    padding: 5px;
+    display: block;
+    letter-spacing: 2px;
+}
+
+.submit:hover {
+	color: #fff;
+	background-color: darkblue;
+}
+
+ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: inherit;
+	font-size: 12px;
+	transition: .4s;
+}
+
+a:hover {
+	color: darkblue;
+}
+
+li {
+	padding: 4px 0;
+}
+
+input {
+	font-family: inherit;
+	padding: 5px 0;
+	margin: 5px 0;
+	background-color: #e2e2e2;
+	border: 1px solid transparent;
+	outline: none;
+	text-indent: 10px;
+	width: 100%;
+}
+
+input[type=submit] {
+	text-indent: 0;
+	text-align: center;
+	border-color: darkblue;
+	border-radius: 3px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: .4s;
+}
+
+input[type=submit]:hover {
+	background-color: darkblue;
+	color: #fff;
+
+}
+
+table {
+	width: 650px;
+}
+
+th, td, tr, tbody {
+	border: 1px solid #e2e2e2;
+	padding: 4px 8px;
+
+}
+
+button {
+	border: none;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: pointer;
+	transition: .4s;
+	outline: none;
+}
+
+button:hover {
+	color: green;
+}
+
+td a {
+	text-transform: none;
+	font-size: 16px;
+}
+
+td a:hover {
+	color: red;
+}
+
+select {
+	font-family: inherit;
+	height: 30px;
+	width: 100%;
+	background-color: #e2e2e2;
+	outline: none;
+	border: 1px solid #fff;
+}
+
+.menu-box input[type=submit] {
+	margin-top: 30px;
+}
+
+.hide {
+	display: none;
+}
+
+.action {
+	text-align: center;
+}
+
+.delete-btn:hover {
+	color: red;
+}
+
+.add-link{
+    color: red;
+}

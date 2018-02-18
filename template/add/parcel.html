@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dodawanie nowej paczki</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/addParcel.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Play:400,700&amp;subset=latin-ext" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1><a href="../../index.html">Paczkolab</a></h1>
+            <hr>
+            <div class="heading-box">
+                <h2>Dodaj nową paczkę</h2>
+            </div>
+            <div class="menu-box">
+                <form id="add-parcel">
+                    <p>Adres</p>
+                    <select name="select address" id="address_option" required>
+                        <option value="value">Wybierz adres</option> 
+                    </select>
+                    <p>Użytkownik</p>
+                    <select name="select user" id="user_option" required>
+                        <option value="value">Wybierz użytkownika</option> 
+                    </select>
+                    <p>Rozmiar</p>
+                    <select name="select size" id="size_option" required>
+                        <option value="value">Wybierz rozmiar paczki</option> 
+                    </select>
+                    <input type="submit" value="Dodaj">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

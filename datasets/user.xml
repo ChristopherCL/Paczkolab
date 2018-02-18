@@ -1,0 +1,7 @@
+<dataset>
+    <User id="1" name="Joe" surname="Doe" credits="10" address_id="1"/>
+    <User id="2" name="Joe2" surname="Doe2" credits="20" address_id="2"/>
+    <User id="3" name="Joe3" surname="Doe3" credits="30" address_id="3"/>
+    <User id="4" name="Joe4" surname="Doe4" credits="50" address_id="4"/>
+    <User id="5" name="Joe5" surname="Doe5" credits="100" address_id="5"/>
+</dataset>
